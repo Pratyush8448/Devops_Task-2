@@ -1,0 +1,43 @@
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.team-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.info-icon {
+  font-size: 1.3rem;
+  color: var(--text);
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.info-icon:hover {
+  color: var(--accent);
+}
+
+.team-details {
+  margin-top: 1rem;
+  background-color: rgba(100, 100, 100, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--text);
+  overflow: hidden;
+}
